@@ -1,0 +1,15 @@
+# 模型、数据处理与训练
+numpy==1.26.4
+torch==2.6.0
+transformers==4.57.1
+jinja2==3.1.6
+tqdm==4.67.1
+
+# GRPO 奖励模型与下载工具
+einops==0.8.1
+sentencepiece==0.2.0
+huggingface-hub>=0.34,<1
+
+# Web 演示（本地权重或兼容接口）
+streamlit==1.50.0
+openai==1.59.6

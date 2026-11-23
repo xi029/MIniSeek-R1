@@ -1,0 +1,22 @@
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.idea/
+.env
+.pytest_cache/
+# Local datasets, checkpoints and model downloads
+/dataset/*.jsonl
+/checkpoints/
+/out/
+/reward/
+/MiniSeek/
+/exports/
+*.pth
+*.safetensors
+# Experiment logs and local app settings
+swanlog/
+wandb/
+.streamlit/secrets.toml
+.cache/
